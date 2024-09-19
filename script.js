@@ -7,10 +7,6 @@ let TOTAL_WIDTH=800;
 
 let btn = document.querySelector("#btn");
 
-btn.addEventListener('click',(event)=>{
-    let number = prompt('Enter number of squares per side for the grid: ');
-});
-
 for(let i=0;i<16;i++)
 {
     let div = document.createElement("div");
@@ -26,6 +22,15 @@ for(let i=0;i<16;i++)
 
     container.appendChild(div);
 }
+
+btn.addEventListener('click',(event)=>{
+    let number = prompt('Enter number of squares per side for the grid: ');
+    
+    while(container.firstChild)
+    {
+        container.removeChild(container.lastChild);
+    }
+});
 
 container.addEventListener('mouseover',(event)=>{
     let target = event.target;
