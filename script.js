@@ -35,7 +35,7 @@ btn.addEventListener('click',(event)=>{
     let number=0;
     do
     {
-        number = prompt('Enter number of squares per side for the grid: ');
+        number = prompt('Enter number of squares per side for the grid (between 1 and 100): ');
     }
     while(number<0||number>100);
 
