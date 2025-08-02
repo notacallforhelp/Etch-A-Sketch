@@ -1,40 +1,39 @@
-@import url('https://fonts.googleapis.com/css2?family=Afacad+Flux:wght@100..1000&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Afacad+Flux:wght@100..1000&display=swap");
 
-*{
-    font-family: "Afacad Flux", sans-serif;
-    font-optical-sizing: auto;
-    font-weight: 500;
-    font-style: normal;
-    font-variation-settings:
-    "slnt" 0;
+* {
+  font-family: "Afacad Flux", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+  font-variation-settings: "slnt" 0;
 }
 
-h1{
-    font-size: 54px;
-    text-align: center;
+h1 {
+  font-size: 54px;
+  text-align: center;
 }
 
-body{
-    box-sizing: border-box;
-    background-color: lightpink;
+body {
+  box-sizing: border-box;
+  background-color: lightpink;
 }
 
-#container{
-        max-width: fit-content;
-        margin-left: auto;
-        margin-right: auto;
-        background-color: white;
+#container {
+  max-width: fit-content;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: white;
 }
 
-.buttondiv{
-    display: flex;
-    justify-content: center;
-    margin: 24px 0;
+.buttondiv {
+  display: flex;
+  justify-content: center;
+  margin: 24px 0;
 }
 
-button{
-    border-radius: 8px;
-    padding:8px;
-    background-color: pink;
-    font-weight: 700;
+button {
+  border-radius: 8px;
+  padding: 8px;
+  background-color: pink;
+  font-weight: 700;
 }
