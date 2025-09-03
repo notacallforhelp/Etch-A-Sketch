@@ -6,7 +6,6 @@ container.setAttribute(
 );
 
 let TOTAL_SIZE = 800; //done as total size is assumed as 800px * 800px
-
 let btn = document.querySelector("#btn");
 
 //helps with getting random colors
@@ -39,7 +38,7 @@ btn.addEventListener("click", (event) => {
     number = prompt(
       "Enter number of squares per side for the grid (between 1 and 100): "
     );
-  } while (number < 0 || number > 100);
+  } while (number < 1 || number > 100);
 
   while (container.firstChild) {
     container.removeChild(container.lastChild);
